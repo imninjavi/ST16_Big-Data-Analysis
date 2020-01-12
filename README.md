@@ -4,7 +4,7 @@
 - `git clone git@github.com:ninjavi98/ST16_Big-Data-Analysis.git`
 - `cd ST16_Big-Data-Analysis-master`
 - `git init`
-- `git remote add git@github.com:ninjavi98/ST16_Big-Data-Analysis.git`
+- `git remote add origin git@github.com:ninjavi98/ST16_Big-Data-Analysis.git`
 
 ## How to sync local repos to remote
 - `git pull`
@@ -20,4 +20,8 @@
 Copy web folder into web root directory (into htdocs or /var/www/html)
 
 ## Running
+### Login Page
 Input localhost/web/ in url box on browser
+
+### Home Page
+Input localhost/web/overview in url box on browser
