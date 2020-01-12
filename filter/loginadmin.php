@@ -5,13 +5,13 @@ include 'koneksi.php';
 $username = $_POST['email'];
 $password = md5($_POST['pass']);
  
-$query = mysqli_query($conn, "SELECT * FROM admin WHERE userid='$username' AND pass='$password'");
+$query = mysqli_query($conn, "SELECT * FROM dbadmin WHERE userid='$username' AND pass='$password'");
 $cek = mysqli_num_rows($query);
 if($cek > 0){
 	
     $_SESSION['username'] = $username;
-	header("location:index2.php");
+	header("location:pilihan.php");
 }else{
-	header("location:index.php");
+	header("location:indexadmin.php");
 	
 } 

@@ -6,7 +6,7 @@ include 'koneksi.php';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login User</title>
+	<title>Login Admin</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -37,9 +37,9 @@ include 'koneksi.php';
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
-				<form method="post" action="login.php" class="login100-form validate-form">
+				<form method="post" action="loginadmin.php" class="login100-form validate-form">
 					<span class="login100-form-title p-b-33">
-						Login User
+						Login Admin
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
@@ -65,17 +65,11 @@ include 'koneksi.php';
 							Create an account?
 						</span>
 
-						<a href="daftar.php" class="txt2 hov1">
+						<a href="daftaradmin.php" class="txt2 hov1">
 							Sign up
 						</a>
-						<div class="text-center">
-						<span class="txt1">
-							Have an admin account?
-						</span>
+						</div>
 						
-						<a href="indexadmin.php" class="txt2 hov1">
-							Login Admin
-						</a>
 					</div>
 				</form>
 			</div>

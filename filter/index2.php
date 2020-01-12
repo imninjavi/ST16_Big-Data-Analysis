@@ -1,3 +1,10 @@
+<?php 
+	session_start();
+	if (!$_SESSION['username']) {
+		header("Location: index.php");
+	  }
+	  include 'koneksi2.php';
+	?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,9 +28,7 @@
 	</center>
 
 
-	<?php 
-	include 'koneksi2.php';
-	?>
+
 
 	<div style="width: 800px;margin: 0px auto;">
 		<canvas id="myChart"></canvas>
@@ -42,19 +47,19 @@
 					label: '',
 					data: [
 					<?php 
-					$jumlah_teknik = mysqli_query($conn,"SELECT * FROM penyakit WHERE penyakit='tangan'");
+					$jumlah_teknik = mysqli_query($conn,"SELECT * FROM Penyakit WHERE penyakit='tangan'");
 					echo mysqli_num_rows($jumlah_teknik);
 					?>, 
 					<?php 
-					$jumlah_ekonomi = mysqli_query($conn,"SELECT * FROM penyakit WHERE penyakit='kaki'");
+					$jumlah_ekonomi = mysqli_query($conn,"SELECT * FROM Penyakit WHERE penyakit='kaki'");
 					echo mysqli_num_rows($jumlah_ekonomi);
 					?>, 
 					<?php 
-					$jumlah_fisip = mysqli_query($conn,"SELECT * FROM penyakit WHERE penyakit='perut'");
+					$jumlah_fisip = mysqli_query($conn,"SELECT * FROM Penyakit WHERE penyakit='perut'");
 					echo mysqli_num_rows($jumlah_fisip);
 					?>, 
 					<?php 
-					$jumlah_pertanian = mysqli_query($conn,"SELECT * FROM penyakit WHERE penyakit='kepala'");
+					$jumlah_pertanian = mysqli_query($conn,"SELECT * FROM Penyakit WHERE penyakit='kepala'");
 					echo mysqli_num_rows($jumlah_pertanian);
 					?>
 					],

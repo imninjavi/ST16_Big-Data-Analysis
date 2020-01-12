@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login V19</title>
+	<title>Register Admin</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -32,9 +32,9 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-50">
-				<form class="login100-form validate-form">
+				<form method="post" action="registeradmin.php" class="login100-form validate-form">
 					<span class="login100-form-title p-b-33">
-						Account Login
+						Register Admin
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
@@ -50,28 +50,18 @@
 					</div>
 
 					<div class="container-login100-form-btn m-t-20">
-						<button class="login100-form-btn">
-							Sign in
+						<button type="submit" class="login100-form-btn">
+							Sign up
 						</button>
-					</div>
-
-					<div class="text-center p-t-45 p-b-4">
-						<span class="txt1">
-							Forgot
-						</span>
-
-						<a href="#" class="txt2 hov1">
-							Username / Password?
-						</a>
 					</div>
 
 					<div class="text-center">
 						<span class="txt1">
-							Create an account?
+							Already have an account?
 						</span>
 
-						<a href="#" class="txt2 hov1">
-							Sign up
+						<a href="indexadmin.php" class="txt2 hov1">
+							Sign in
 						</a>
 					</div>
 				</form>
