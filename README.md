@@ -13,3 +13,11 @@
 - `git add .`
 - `git commit -m "<what's new>"`
 - `git push`
+
+# Guide
+
+## Installation
+Copy web folder into web root directory (into htdocs or /var/www/html)
+
+## Running
+Input localhost/web/ in url box on browser
