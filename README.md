@@ -17,7 +17,19 @@
 # Guide
 
 ## Installation
+### Main Application
 Copy web folder into web root directory (into htdocs or /var/www/html)
+
+### Database
+Just import the big_data.sql file into your database
 
 ## Running
 Type `http://localhost/web/` in your address bar
+
+## Login
+username  : admin
+password  : 1234
+
+or using email
+email     :admin@ankes.com
+password  :1234
