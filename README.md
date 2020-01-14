@@ -20,8 +20,4 @@
 Copy web folder into web root directory (into htdocs or /var/www/html)
 
 ## Running
-### Login Page
-Input localhost/web/ in url box on browser
-
-### Home Page
-Input localhost/web/overview in url box on browser
+Type `http://localhost/web/` in your address bar
