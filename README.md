@@ -27,9 +27,9 @@ Just import the big_data.sql file into your database
 Type `http://localhost/web/` in your address bar
 
 ## Login
-username  : admin
-password  : 1234
+- username  : admin
+- password  : 1234
 
 or using email
-email     :admin@ankes.com
-password  :1234
+- email     :admin@ankes.com
+- password  :1234
