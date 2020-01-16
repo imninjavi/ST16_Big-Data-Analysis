@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Login | Kesehatan Mahasiswa</title>
+	<title>Login | Data Analisis</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
@@ -27,7 +27,7 @@
 		<div class="container-login100">
 			<div class="wrap-login100">
 				<div class="login100-pic js-tilt" data-tilt>
-					<img src="<?php echo base_url('bootstrap/images/img-03.png') ?>" alt="IMG">
+					<img src="<?php echo base_url('bootstrap/images/01.png') ?>" alt="IMG">
 				</div>
 
 				<form class="login100-form validate-form" action="<?= site_url('admin/login') ?>" method="POST">

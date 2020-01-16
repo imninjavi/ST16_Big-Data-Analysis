@@ -30,7 +30,7 @@
 				<div class="card-body-icon">
 					<i class="fas fa-fw fa-comments"></i>
 				</div>
-				<div class="mr-5">98 Mahasiswa</div>
+				<div class="mr-5"><?php echo $bdata->num_rows() . " Data"?></div>
 				</div>
 				<a class="card-footer text-white clearfix small z-1" href="#">
 				<span class="float-left">View Details</span>
@@ -46,7 +46,7 @@
 				<div class="card-body-icon">
 					<i class="fas fa-fw fa-shopping-cart"></i>
 				</div>
-				<div class="mr-5">95 Mahasiswa Sehat</div>
+				<div class="mr-5"><?php echo $jml_negara->num_rows() . " Negara"?></div>
 				</div>
 				<a class="card-footer text-white clearfix small z-1" href="#">
 				<span class="float-left">View Details</span>
@@ -62,7 +62,7 @@
 				<div class="card-body-icon">
 					<i class="fas fa-fw fa-life-ring"></i>
 				</div>
-				<div class="mr-5">3 Mahasiswa Sakit</div>
+				<div class="mr-5">Tahun 1985 - 2015</div>
 				</div>
 				<a class="card-footer text-white clearfix small z-1" href="#">
 				<span class="float-left">View Details</span>
@@ -78,7 +78,7 @@
 		<div class="card mb-3">
 			<div class="card-header">
 			<i class="fas fa-chart-area"></i>
-			Mahasiswa Sakit</div>
+			Data visualization</div>
 			<div class="card-body">
 			<canvas id="myAreaChart" width="100%" height="30"></canvas>
 			</div>
